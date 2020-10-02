@@ -1,0 +1,25 @@
+
+import React from 'react';
+import { useForm } from 'react-hook-form';
+
+export default function App() {
+  const { register, handleSubmit, errors } = useForm();
+  const onSubmit = data => console.log(data);
+  console.log(errors);
+  
+  return (
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <input type="text" placeholder="이름" name="이름" ref={register({required: true, maxLength: 80})} />
+      <input type="datetime" placeholder="생년월일" name="생년월일" ref={register({required: true, maxLength: 100})} />
+      <select name="동물종류" ref={register({ required: true })}>
+        <option value="고양이">고양이</option>
+        <option value="소형견">소형견</option>
+        <option value="중형견">중형견</option>
+        <option value="대형견">대형견</option>
+        <option value="초대형견">초대형견</option>
+      </select>
+
+      <input type="submit" />
+    </form>
+  );
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/animal_age_calculator/static/css/main.bbec99b8.chunk.css",
+    "main.js": "/animal_age_calculator/static/js/main.cdf6d8fb.chunk.js",
+    "main.js.map": "/animal_age_calculator/static/js/main.cdf6d8fb.chunk.js.map",
+    "runtime-main.js": "/animal_age_calculator/static/js/runtime-main.8e17397c.js",
+    "runtime-main.js.map": "/animal_age_calculator/static/js/runtime-main.8e17397c.js.map",
+    "static/js/2.a9d8e64b.chunk.js": "/animal_age_calculator/static/js/2.a9d8e64b.chunk.js",
+    "static/js/2.a9d8e64b.chunk.js.map": "/animal_age_calculator/static/js/2.a9d8e64b.chunk.js.map",
+    "index.html": "/animal_age_calculator/index.html",
+    "precache-manifest.ad30751542b872e568f1e20b69418d7a.js": "/animal_age_calculator/precache-manifest.ad30751542b872e568f1e20b69418d7a.js",
+    "service-worker.js": "/animal_age_calculator/service-worker.js",
+    "static/css/main.bbec99b8.chunk.css.map": "/animal_age_calculator/static/css/main.bbec99b8.chunk.css.map",
+    "static/js/2.a9d8e64b.chunk.js.LICENSE.txt": "/animal_age_calculator/static/js/2.a9d8e64b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e17397c.js",
+    "static/js/2.a9d8e64b.chunk.js",
+    "static/css/main.bbec99b8.chunk.css",
+    "static/js/main.cdf6d8fb.chunk.js"
+  ]
+}
